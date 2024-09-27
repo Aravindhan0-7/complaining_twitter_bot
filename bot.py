@@ -6,9 +6,9 @@ from selenium.webdriver.common.by import By
 import time
 PROMISED_DOWN=150
 PROMISED_UP=10
-TWITTER_EMAIL="summasample30@gmail.com"
-TWITTER_PASSWORD="Shaara@07"
-TWITTER_USERNAME="luffy909004279"
+TWITTER_EMAIL="EMAIL_ID"
+TWITTER_PASSWORD="PASSWORD"
+TWITTER_USERNAME="USERNAME"
 driver_options = webdriver.ChromeOptions()
 driver_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=driver_options)
